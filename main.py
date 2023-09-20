@@ -20,6 +20,7 @@ def ask_option():
         ask_option()
     if (option['main_options']) == "New User":
         add_user()
+        print("PLease restart the ./main.py, to prevent from a crash")
         ask_option()
 
 
